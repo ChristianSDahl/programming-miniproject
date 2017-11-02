@@ -149,6 +149,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Field.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Props.h" />
     <ClInclude Include="Santa.h" />
@@ -156,6 +157,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Field.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Props.cpp" />
     <ClCompile Include="Santa.cpp" />

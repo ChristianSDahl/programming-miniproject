@@ -14,7 +14,7 @@ Player::~Player()
 {
 }
 
-float Player::move() {
+void Player::move() {
 	set_x(get_x()+get_speed());
 }
 void Player::action() {

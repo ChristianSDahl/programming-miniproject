@@ -1,8 +1,11 @@
 #pragma once
 #include "Player.h"
+#include "Props.h"
 class Santa : public Player
 {
 	float y;
+	vector<Props> drop_list;
+	//Props drop_array[];
 public:
 	Santa(float x);
 	~Santa();

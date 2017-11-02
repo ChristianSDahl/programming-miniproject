@@ -13,7 +13,7 @@ class Props
 	int type;
 
 public:
-	Props();
+	Props(float x);
 	~Props();
 
 	float fall();

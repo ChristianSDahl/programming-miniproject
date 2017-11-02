@@ -8,22 +8,25 @@ using namespace std;
 
 class Player
 {
-	float cd;
-	float x, y;
+	int type;
 	Mat img;
+	float x, y;
 	int score;
 	int speed;
+	float cd;
 public:
-	Player();
+	Player(float x);
 	~Player();
 
-	float move(float x, float y);
+	float move();
 	void action();
 
+	int get_type();
+	void set_type(int type);
+	Mat get_img();
+	void set_img(Mat img);
 	float get_x();
 	void set_x(float x);
-	float get_y();
-	void set_y(float y);
 	float get_score();
 	void set_score(float score);
 	float get_speed();

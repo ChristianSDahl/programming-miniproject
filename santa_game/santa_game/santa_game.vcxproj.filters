@@ -27,6 +27,9 @@
     <ClInclude Include="Props.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Santa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -39,6 +42,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Props.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Santa.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

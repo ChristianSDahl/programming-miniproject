@@ -30,7 +30,7 @@ Props::~Props()
 {
 }
 
-float Props::fall() {
+void Props::fall() {
 	set_y(get_y() + get_gravity());
 }
 

@@ -18,7 +18,7 @@ public:
 	Player(float x);
 	~Player();
 
-	float move();
+	void move();
 	void action();
 
 	int get_type();

@@ -16,7 +16,7 @@ public:
 	Props(float x);
 	~Props();
 
-	float fall();
+	void fall();
 
 	// Get's and Setters
 	float get_x();

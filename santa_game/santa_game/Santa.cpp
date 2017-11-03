@@ -12,7 +12,7 @@ Santa::Santa(float x)
 	//Sets y-value for the santa object
 	set_y(120);
 
-	vector<Props> drop_list;
+	vector<Props>* drop_list;
 }
 
 Santa::~Santa()
@@ -24,7 +24,8 @@ void Santa::createDrop(float x) {
 }
 
 void Santa::action() {
-	drop_list.push_back(new Props(this->get_x()));
+	Props temp(this->get_x());
+	drop_list.push_back(temp);
 }
 
 float Santa::get_y() {

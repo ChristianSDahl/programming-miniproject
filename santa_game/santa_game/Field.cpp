@@ -10,3 +10,7 @@ Field::Field()
 Field::~Field()
 {
 }
+
+void Field::spawn() {
+
+}

@@ -19,7 +19,7 @@ void Server() {
 	int wsok = WSAStartup(ver, &wsdata);
 	if (wsok != 0)
 	{
-		cerr << "cant do shit" << endl;
+		cerr << "Error" << endl;
 		return;
 	}
 	//create socket
@@ -30,11 +30,11 @@ void Server() {
 		return;
 	}
 	//bind the  ip adrrese and port to a socket
-	sockaddr_in hint;
-	hint.sin_family = AF_INET;
-	hint.sin_port = htons(54000);
-	hint.sin_addr.S_un.S_addr = INADDR_ANY; //can also use Inet_pton
-	bind(listening, (sockaddr*)&hint, sizeof(hint));
+	sockaddr_in addr;
+	addr.sin_family = AF_INET;
+	addr.sin_port = htons(54000);
+	addr.sin_addr.S_un.S_addr = INADDR_ANY; //can also use Inet_pton
+	bind(listening, (sockaddr*)&addr, sizeof(addr));
 
 	//tell winsock the socket is for listening
 	listen(listening, SOMAXCONN);
@@ -44,7 +44,7 @@ void Server() {
 	int clientsize = sizeof(client);
 
 	SOCKET clientSocket = accept(listening, (sockaddr*)&client, &clientsize);
-	if (clientSocket == INVALID_SOCKET) // do something
+	if (clientSocket == INVALID_SOCKET) // checks if the socket is valid 
 	{
 		cerr << "invalid socket" << endl;
 	}
@@ -89,7 +89,7 @@ void Server() {
 
 
 	}
-	//close that shit
+	//close the socket
 	closesocket(clientSocket);
 	//cleanup winsock
 	WSACleanup();

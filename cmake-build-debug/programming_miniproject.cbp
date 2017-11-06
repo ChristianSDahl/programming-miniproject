@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="programming_miniproject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="programming_miniproject">
+				<Option output="C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/programming_miniproject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 programming_miniproject"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="programming_miniproject/fast">
+				<Option output="C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/programming_miniproject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 programming_miniproject/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/Client/Client/Client.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/Client/Client/stdafx.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/Client/Client/stdafx.h">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/Client/Client/targetver.h">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/ftp/Ftp.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/opengl/OpenGL.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/pong/Pong.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/shader/Effect.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/shader/Shader.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/sockets/Sockets.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/sockets/TCP.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/sockets/UDP.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/sound-capture/SoundCapture.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/sound/Sound.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/voip/Client.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/voip/Server.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/voip/VoIP.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/win32/Win32.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/window/Window.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Audio.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Audio/AlResource.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Audio/Export.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Audio/InputSoundFile.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Audio/Listener.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Audio/Music.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Audio/OutputSoundFile.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Audio/Sound.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Audio/SoundBuffer.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Audio/SoundBufferRecorder.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Audio/SoundFileFactory.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Audio/SoundFileReader.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Audio/SoundFileWriter.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Audio/SoundRecorder.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Audio/SoundSource.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Audio/SoundStream.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Config.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/BlendMode.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/CircleShape.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/Color.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/ConvexShape.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/Drawable.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/Export.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/Font.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/Glsl.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/Glyph.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/Image.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/PrimitiveType.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/Rect.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/RectangleShape.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/RenderStates.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/RenderTarget.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/RenderTexture.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/RenderWindow.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/Shader.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/Shape.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/Sprite.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/Text.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/Texture.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/Transform.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/Transformable.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/Vertex.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/VertexArray.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Graphics/View.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Main.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Network.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Network/Export.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Network/Ftp.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Network/Http.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Network/IpAddress.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Network/Packet.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Network/Socket.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Network/SocketHandle.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Network/SocketSelector.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Network/TcpListener.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Network/TcpSocket.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Network/UdpSocket.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/OpenGL.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/Clock.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/Err.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/Export.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/FileInputStream.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/InputStream.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/Lock.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/MemoryInputStream.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/Mutex.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/NativeActivity.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/NonCopyable.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/Sleep.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/String.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/Thread.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/ThreadLocal.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/ThreadLocalPtr.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/Time.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/Utf.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/Vector2.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/System/Vector3.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Window.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Window/Context.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Window/ContextSettings.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Window/Event.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Window/Export.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Window/GlResource.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Window/Joystick.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Window/Keyboard.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Window/Mouse.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Window/Sensor.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Window/Touch.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Window/VideoMode.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Window/Window.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Window/WindowHandle.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/include/SFML/Window/WindowStyle.hpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game.sln">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/ConsoleApplication3.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Drops.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Drops.h">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Elf.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Elf.h">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Field.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Field.h">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Player.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Player.h">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Props.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Props.h">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Santa.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Santa.h">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/santa_game.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/stdafx.cpp">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/stdafx.h">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/targetver.h">
+			<Option target="programming_miniproject"/>
+		</Unit>
+		<Unit filename="C:/Users/Mads Grumstrup/programming-miniproject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

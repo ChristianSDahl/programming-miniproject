@@ -1,6 +1,6 @@
 #pragma once
-#include "Player.h"
-#include "Props.h"
+#include "Player.cpp"
+#include "Props.cpp"
 class Santa : public Player
 {
 	float y;

@@ -1,0 +1,3 @@
+C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/CMakeFiles/programming_miniproject.dir
+C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Mads Grumstrup/programming-miniproject/cmake-build-debug/CMakeFiles/rebuild_cache.dir

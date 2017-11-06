@@ -1,0 +1,184 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/ftp/Ftp.cpp
+SFML/Network.hpp
+-
+fstream
+-
+iostream
+-
+
+C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/opengl/OpenGL.cpp
+SFML/Graphics.hpp
+-
+SFML/OpenGL.hpp
+-
+
+C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/pong/Pong.cpp
+SFML/Graphics.hpp
+-
+SFML/Audio.hpp
+-
+cmath
+-
+ctime
+-
+cstdlib
+-
+
+C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/shader/Effect.hpp
+SFML/Graphics.hpp
+-
+cassert
+-
+string
+-
+
+C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/shader/Shader.cpp
+Effect.hpp
+C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/shader/Effect.hpp
+vector
+-
+cmath
+-
+
+C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/sockets/Sockets.cpp
+iostream
+-
+cstdlib
+-
+
+C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/sockets/TCP.cpp
+SFML/Network.hpp
+-
+iostream
+-
+
+C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/sockets/UDP.cpp
+SFML/Network.hpp
+-
+iostream
+-
+
+C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/sound-capture/SoundCapture.cpp
+SFML/Audio.hpp
+-
+iostream
+-
+
+C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/sound/Sound.cpp
+SFML/Audio.hpp
+-
+iostream
+-
+string
+-
+
+C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/voip/Client.cpp
+SFML/Audio.hpp
+-
+SFML/Network.hpp
+-
+iostream
+-
+
+C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/voip/Server.cpp
+SFML/Audio.hpp
+-
+SFML/Network.hpp
+-
+iomanip
+-
+iostream
+-
+iterator
+-
+
+C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/voip/VoIP.cpp
+iomanip
+-
+iostream
+-
+cstdlib
+-
+
+C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/win32/Win32.cpp
+SFML/Graphics.hpp
+-
+windows.h
+-
+cmath
+-
+
+C:/Users/Mads Grumstrup/programming-miniproject/External Libraries/SFML/examples/window/Window.cpp
+SFML/Window.hpp
+-
+SFML/OpenGL.hpp
+-
+
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Drops.cpp
+
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Elf.cpp
+
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Elf.h
+
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Field.cpp
+stdafx.h
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/stdafx.h
+Field.h
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Field.h
+
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Field.h
+opencv2/opencv.hpp
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/opencv2/opencv.hpp
+Santa.h
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Santa.h
+Elf.h
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Elf.h
+
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Player.cpp
+stdafx.h
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/stdafx.h
+Player.h
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Player.h
+
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Player.h
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/core/core.hpp
+-
+
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Props.cpp
+stdafx.h
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/stdafx.h
+Props.h
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Props.h
+
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Props.h
+opencv2/opencv.hpp
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/opencv2/opencv.hpp
+
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Santa.cpp
+stdafx.h
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/stdafx.h
+Santa.h
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Santa.h
+iostream
+-
+list
+-
+
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Santa.h
+Player.h
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Player.h
+Props.h
+C:/Users/Mads Grumstrup/programming-miniproject/santa_game/santa_game/Props.h
+

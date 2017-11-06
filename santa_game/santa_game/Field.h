@@ -1,7 +1,5 @@
 #pragma once
 #include "opencv2/opencv.hpp"
-#include "Santa.h"
-#include "Elf.h"
 
 using namespace std;
 using namespace cv;

@@ -1,7 +1,5 @@
+#include "stdafx.h"
 #include "Elf.h"
-
-
-
 
 Elf::Elf(float x)
 	: Player(x)

@@ -2,6 +2,7 @@
 
 
 
+
 Elf::Elf(float x)
 	: Player(x)
 {

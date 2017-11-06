@@ -1,4 +1,5 @@
 #include "Player.h"
+#include "stdafx.h"
 class Elf :
 	public Player
 {

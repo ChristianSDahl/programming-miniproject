@@ -8,6 +8,7 @@ using namespace sf;
 
 Field::Field()
 {
+	/*
 	RenderWindow renderWindow(sf::VideoMode(1280, 720), "My window");
 
 	sf::Texture texture;
@@ -20,6 +21,7 @@ Field::Field()
 		renderWindow.draw(sprite, sf::RenderStates::Default);
 		renderWindow.display();
 	}
+	*/
 }
 
 

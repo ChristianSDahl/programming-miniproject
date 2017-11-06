@@ -5,7 +5,7 @@
 #include <string>
 #include <iostream>
 #include <ws2tcpip.h>
-
+#include <WinSock2.h> 
 
 #pragma comment (lib, "ws2_32.lib")
 using namespace std;

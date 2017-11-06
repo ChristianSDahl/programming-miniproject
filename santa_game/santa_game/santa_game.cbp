@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="santagame" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="santa_game" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add directory="C:/opencv/build/include" />
+				</Compiler>
+				<Linker>
+					<Add library="opencv_word330d.lib" />
+					<Add directory="C:/opencv/build/x64/vc14/lib" />
+				</Linker>
+			</Target>
+			<Target title="Debug x64">
+				<Option output="santa_game" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add directory="C:/opencv/build/include" />
+					<Add directory="$(SolutionDir)/../External Libraries/SFML/include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-main-d.lib" />
+					<Add library="sfml-graphics-d.lib" />
+					<Add library="sfml-window-d.lib" />
+					<Add library="sfml-system-d.lib" />
+					<Add library="sfml-audio-d.lib" />
+					<Add library="sfml-network-d.lib" />
+					<Add library="opencv_world330d.lib" />
+					<Add directory="C:/opencv/build/x64/vc14/lib" />
+					<Add directory="$(SolutionDir)/../External Libraries/SFML/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release x64">
+				<Option output="santa_game" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add directory="C:/opencv/build/include" />
+					<Add directory="$(SolutionDir)/../External Libraries/SFML/include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-main-d.lib" />
+					<Add library="sfml-graphics-d.lib" />
+					<Add library="sfml-window-d.lib" />
+					<Add library="sfml-system-d.lib" />
+					<Add library="sfml-audio-d.lib" />
+					<Add library="sfml-network-d.lib" />
+					<Add library="opencv_world330d.lib" />
+					<Add directory="C:/opencv/build/x64/vc14/lib" />
+					<Add directory="$(SolutionDir)/../External Libraries/SFML/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="santa_game" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="Field.cpp" />
+		<Unit filename="Field.h" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="Props.cpp" />
+		<Unit filename="Props.h" />
+		<Unit filename="Santa.cpp" />
+		<Unit filename="Santa.h" />
+		<Unit filename="Server.cpp" />
+		<Unit filename="santa_game.cpp" />
+		<Unit filename="stdafx.cpp" />
+		<Unit filename="stdafx.h" />
+		<Unit filename="targetver.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

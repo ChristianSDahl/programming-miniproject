@@ -11,6 +11,8 @@ Santa::Santa(float x)
 {
 	//Sets y-value for the santa object
 	set_y(120);
+	//Sets x-value for the santa object
+	set_x(x);
 
 	vector<Props>* drop_list;
 }

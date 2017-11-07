@@ -1,8 +1,9 @@
 #pragma once
 #include "opencv2/opencv.hpp"
+#include <SFML\Graphics.hpp>
 
 using namespace std;
-using namespace cv;
+using namespace sf;
 
 class Props
 {
@@ -11,6 +12,9 @@ class Props
 	float gravity;
 	Mat img;
 	int type;
+
+	Texture* texture;
+	Sprite* prop_sprite;
 
 public:
 	Props(float x);

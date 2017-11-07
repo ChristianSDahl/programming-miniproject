@@ -1,6 +1,13 @@
 #include "stdafx.h"
 #include "Props.h"
+#include "Santa.h"
+#include "Elf.h"
+#include <iostream>
+#include <list>
+#include <SFML\Graphics.hpp>
 
+using namespace std;
+using namespace sf;
 
 Props::Props(float x)
 {
@@ -11,10 +18,24 @@ Props::Props(float x)
 	//If statement that chooses which item shall be dropped. Coal or gift.
 	set_type(rand() % 3);
 	if (type == 0) {
-		//set_img  !!Insert image of coal!!  ;
+		this->texture = new Texture();
+		if (texture->loadFromFile("coal_sprite.png") != true) {
+			cout << "can't load file 'coal_sprite.png'" << endl;
+		}
+		this->prop_sprite = new Sprite();
+
+		this->prop_sprite->setTexture(*texture);
 	}
 	else {
-		//set_img !!Insert image of gift!!  ;
+		
+		this->texture = new Texture();
+		if (texture->loadFromFile("gift_sprite.png") != true) {
+			cout << "can't load file 'gift_sprite.png'" << endl;
+		}
+		this->prop_sprite = new Sprite();
+
+		this->prop_sprite->setTexture(*texture);
+		
 	}
 
 	//The setup for the position of X(The picture)

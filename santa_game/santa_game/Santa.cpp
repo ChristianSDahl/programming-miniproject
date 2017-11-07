@@ -3,8 +3,11 @@
 
 #include <iostream>
 #include <list>
+#include <SFML\Graphics.hpp>
 
 using namespace std;
+using namespace sf;
+
 
 Santa::Santa(float x)
 	: Player(x)
@@ -15,6 +18,14 @@ Santa::Santa(float x)
 	set_x(x);
 
 	vector<Props>* drop_list;
+	this->texture = new Texture();
+	if (texture->loadFromFile("santa_sprite.png") != true) {
+		cout << "can't load file 'santa_sprite.png'" << endl;
+	}
+	cout << texture << endl;
+	this->santa_sprite = new Sprite();
+
+	this->santa_sprite->setTexture(*texture);
 }
 
 Santa::~Santa()
@@ -35,4 +46,8 @@ float Santa::get_y() {
 }
 void Santa::set_y(float y) {
 	this->y = y;
+}
+
+Sprite* Santa::get_img() {
+	return santa_sprite;
 }

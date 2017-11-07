@@ -59,7 +59,7 @@
     <ClCompile Include="Elf.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Server.cpp">
+    <ClCompile Include="ServerG.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

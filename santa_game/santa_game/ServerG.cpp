@@ -79,7 +79,7 @@ public:
 			else if (mode == 'r') {
 				socket.receive(buffer, size(buffer), recieved);
 				if (recieved > 0) {
-				std:cout << "received" << buffer << std::endl;
+				cout << "received" << buffer << endl;
 					mode = 's';
 
 				}

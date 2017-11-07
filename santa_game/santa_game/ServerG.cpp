@@ -59,7 +59,7 @@ public:
 		socket.send(text.c_str(), text.length() + 1);
 
 		socket.receive(buffer, sizeof(buffer), recieved);
-	std:cout << buffer << std::endl;
+	std::cout << buffer << std::endl;
 		std::getline(cin, text);
 
 
@@ -87,6 +87,7 @@ public:
 
 		}
 		system("pause");
+		cin.ignore();
 		return 0;
 
 	}

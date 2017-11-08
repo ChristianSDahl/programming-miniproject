@@ -17,7 +17,7 @@ Santa::Santa(float x)
 	//Sets x-value for the santa object
 	set_x(x);
 
-	vector<Props>* drop_list;
+	this->drop_list;
 	this->texture = new Texture();
 	if (texture->loadFromFile("santa_sprite.png") != true) {
 		cout << "can't load file 'santa_sprite.png'" << endl;
@@ -37,8 +37,8 @@ void Santa::createDrop(float x) {
 }
 
 void Santa::action() {
-	Props temp(this->get_x());
-	drop_list.push_back(temp);
+	//drop_list->push_back(Props(this->get_x()));
+	cout << "test" << endl;
 }
 
 float Santa::get_y() {

@@ -9,7 +9,7 @@ using namespace sf;
 class Santa : public Player
 {
 	float y;
-	vector<Props> drop_list;
+	vector<Props>* drop_list;
 	Texture* texture;
 	Sprite* santa_sprite;
 public:

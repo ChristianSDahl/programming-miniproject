@@ -29,8 +29,8 @@ Props::Props(float x)
 	else {
 		
 		this->texture = new Texture();
-		if (texture->loadFromFile("gift_sprite.png") != true) {
-			cout << "can't load file 'gift_sprite.png'" << endl;
+		if (texture->loadFromFile("present_sprite.png") != true) {
+			cout << "can't load file 'present_sprite.png'" << endl;
 		}
 		this->prop_sprite = new Sprite();
 

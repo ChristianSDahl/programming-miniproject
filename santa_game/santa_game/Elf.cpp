@@ -10,7 +10,7 @@ Elf::Elf(float x)
 	: Player(x)
 {
 	//Sets y-value for the santa object
-	set_y(820);
+	set_y(690);
 	//Sets x-value for the santa object
 	set_x(x);
 

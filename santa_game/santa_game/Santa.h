@@ -1,11 +1,17 @@
 #pragma once
 #include "Player.h"
 #include "Props.h"
+#include <SFML\Graphics.hpp>
+
+using namespace std;
+using namespace sf;
+
 class Santa : public Player
 {
 	float y;
 	vector<Props> drop_list;
-	//Props drop_array[];
+	Texture* texture;
+	Sprite* santa_sprite;
 public:
 	Santa(float x);
 	~Santa();
@@ -15,5 +21,6 @@ public:
 
 	float get_y();
 	void set_y(float y);
+	Sprite* get_img();
 };
 

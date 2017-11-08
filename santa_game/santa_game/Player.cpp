@@ -58,3 +58,6 @@ float Player::get_cooldown() {
 void Player::set_cooldown(float cd) {
 	this->cd = cd;
 }
+void Player::move_x(float x) {
+	this->x = this->x + x;
+}

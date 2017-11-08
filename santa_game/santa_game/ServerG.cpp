@@ -18,6 +18,8 @@ public:
 
 
 		sf::IpAddress a1 = sf::IpAddress::getLocalAddress(); //creating the server,  setting ip address on of it to your local computers ip
+
+
 		sf::TcpSocket socket; // creating a socket which will be needed to recieve data
 
 		char connectionType, mode; // connectionType will decide which of the 2 users is a server ora  a client  ,,

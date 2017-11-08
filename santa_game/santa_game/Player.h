@@ -33,5 +33,6 @@ public:
 	void set_speed(float speed);
 	float get_cooldown();
 	void set_cooldown(float cd);
+	void move_x(float x);
 };
 

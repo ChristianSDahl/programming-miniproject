@@ -10,7 +10,6 @@ class Props
 	float x;
 	float y;
 	float gravity;
-	Mat img;
 	int type;
 
 	Texture* texture;
@@ -29,8 +28,7 @@ public:
 	void set_y(float y);
 	float get_gravity();
 	void set_gravity(float gravity);
-	Mat get_image();
-	void set_image(Mat image);
+	Sprite* get_image();
 	int get_type();
 	void set_type(int type);
 

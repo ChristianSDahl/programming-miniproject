@@ -78,11 +78,8 @@ void Props::set_gravity(float gravity) {
 	this->gravity = gravity;
 }
 
-Mat Props::get_image() {
-	return img;
-}
-void Props::set_image(Mat image) {
-	this->img = image;
+Sprite* Props::get_image() {
+	return prop_sprite;
 }
 
 int Props::get_type() {

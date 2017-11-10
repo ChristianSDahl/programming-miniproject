@@ -2,6 +2,7 @@
 #include "Elf.h"
 #include <SFML\Graphics.hpp>
 #include <iostream>
+#include "Santa.h"
 
 using namespace std;
 using namespace sf;
@@ -27,8 +28,19 @@ Elf::~Elf()
 {
 }
 
-void Elf::action() {
+void Elf::action(Santa* santa) {
+	bool catch_prop();
+	for (int i = 0; i )
+		if ((prop_sprite.x + prop_sprite.width) >= (this->get_img()->getPosition().x) &&
+			(prop_sprite.x) <= (elf_sprite.x + elf_sprite.width) &&
+			(prop_sprite.y + prop_sprite.height) >= (elf_sprite.y) &&
+			(prop_sprite.y) <= (elf_sprite.y + elf_sprite.height))
+		return true;
+		cout << "CATCH!" << endl;
 
+		else return false;
+		cout << "CATCH FAILED" << endl;
+	}
 }
 
 float Elf::get_y() {

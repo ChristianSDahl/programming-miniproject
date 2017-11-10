@@ -2,6 +2,7 @@
 #include "Player.h"
 #include "stdafx.h"
 #include <SFML\Graphics.hpp>
+#include "Santa.h"
 
 using namespace std;
 using namespace sf;
@@ -17,8 +18,8 @@ class Elf :
 public:
 	Elf(float x);
 	~Elf();
-
-	void action();
+	bool catch_prop;
+	void action(Santa* santa);
 	float get_y();
 	void set_y(float y);
 	Sprite* get_img();

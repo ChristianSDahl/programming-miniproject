@@ -43,7 +43,6 @@ void Elf::action(Santa* santa) {
 			cout << "CATCH FAILED" << endl;
 		}
 	}
-	*/
 }
 
 float Elf::get_y() {

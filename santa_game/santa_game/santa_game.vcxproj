@@ -23,7 +23,7 @@
     <ProjectGuid>{0D36BD71-BD71-44C1-AB5F-9D13AE28A4E4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>santagame</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

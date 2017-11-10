@@ -41,7 +41,7 @@ Props::Props(float x)
 	//The setup for the position of X(The picture)
 	set_x(x);
 
-	set_gravity(rand() % 20);
+	set_gravity(0.5);
 
 	//Create termination factor
 }

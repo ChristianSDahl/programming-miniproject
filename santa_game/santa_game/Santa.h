@@ -23,5 +23,6 @@ public:
 	float get_y();
 	void set_y(float y);
 	Sprite* get_img();
+	vector<Props*>* get_drop_list();
 };
 

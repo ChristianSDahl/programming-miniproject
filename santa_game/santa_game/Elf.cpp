@@ -29,18 +29,19 @@ Elf::~Elf()
 }
 
 void Elf::action(Santa* santa) {
-	/*
-	bool catch_prop();
-	for (int i = 0; i )
-		if ((prop_sprite.x + prop_sprite.width) >= (this->get_img()->getPosition().x) &&
-			(prop_sprite.x) <= (elf_sprite.x + elf_sprite.width) &&
-			(prop_sprite.y + prop_sprite.height) >= (elf_sprite.y) &&
-			(prop_sprite.y) <= (elf_sprite.y + elf_sprite.height))
-		return true;
-		cout << "CATCH!" << endl;
-
-		else return false;
-		cout << "CATCH FAILED" << endl;
+	bool catch_prop;
+	for (int i = 0; i > santa->get_drop_list()->size();i++){
+		if ((santa->get_drop_list()->operator[](i)->get_image()->getPosition().x + santa->get_drop_list()->operator[](i)->get_image()->getGlobalBounds().width) >= (this->get_img()->getPosition().x) &&
+			(santa->get_drop_list()->operator[](i)->get_image()->getPosition().x) <= (this->get_img()->getPosition().x + (this->get_img()->getGlobalBounds().width)) &&
+			(santa->get_drop_list()->operator[](i)->get_image()->getPosition().y + santa->get_drop_list()->operator[](i)->get_image()->getGlobalBounds().height) >= (this->get_img()->getPosition().y) &&
+			(santa->get_drop_list()->operator[](i)->get_image()->getPosition().y) <= (this->get_img()->getPosition().y + (this->get_img()->getGlobalBounds().height))) {
+			catch_prop = true;
+			cout << "CATCH!" << endl;
+		}
+		else {
+			catch_prop = false;
+			cout << "CATCH FAILED" << endl;
+		}
 	}
 	*/
 }

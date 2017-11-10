@@ -29,6 +29,7 @@ Elf::~Elf()
 }
 
 void Elf::action(Santa* santa) {
+	/*
 	bool catch_prop();
 	for (int i = 0; i )
 		if ((prop_sprite.x + prop_sprite.width) >= (this->get_img()->getPosition().x) &&
@@ -41,6 +42,7 @@ void Elf::action(Santa* santa) {
 		else return false;
 		cout << "CATCH FAILED" << endl;
 	}
+	*/
 }
 
 float Elf::get_y() {

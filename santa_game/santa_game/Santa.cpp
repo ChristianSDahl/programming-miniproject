@@ -55,7 +55,7 @@ void Santa::set_y(float y) {
 Sprite* Santa::get_img() {
 	return santa_sprite;
 }
-
+	
 vector<Props*>* Santa::get_drop_list() {
 	return drop_list;
 }

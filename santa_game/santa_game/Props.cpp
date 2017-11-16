@@ -27,7 +27,6 @@ Props::Props(float x)
 		this->prop_sprite->setTexture(*texture);
 	}
 	else {
-		
 		this->texture = new Texture();
 		if (texture->loadFromFile("present_sprite.png") != true) {
 			cout << "can't load file 'present_sprite.png'" << endl;

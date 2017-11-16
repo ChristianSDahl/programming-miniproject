@@ -28,12 +28,6 @@ int Player::get_type() {
 void Player::set_type(int type) {
 	this->type = type;
 }
-Mat Player::get_img() {
-	return img;
-}
-void Player::set_img(Mat img) {
-	this->img = img;
-}
 float Player::get_x() {
 	return x;
 }

@@ -1,15 +1,10 @@
 #pragma once
-#include <opencv2/highgui/highgui.hpp> // import no include errors
-#include <opencv2/imgproc/imgproc.hpp> // import no include errors 
-#include <opencv2/core/core.hpp>       // import no include errors
 
-using namespace cv;
-using namespace std;
+//using namespace std;
 
 class Player
 {
 	int type;
-	Mat img;
 	float x, y;
 	int score;
 	int speed;
@@ -23,8 +18,6 @@ public:
 
 	int get_type();
 	void set_type(int type);
-	Mat get_img();
-	void set_img(Mat img);
 	float get_x();
 	void set_x(float x);
 	float get_score();

@@ -3,7 +3,7 @@
 #include <SFML\Graphics.hpp>
 
 using namespace std;
-using namespace cv;
+//using namespace cv;
 using namespace sf;
 
 Field::Field()

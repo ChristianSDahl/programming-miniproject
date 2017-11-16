@@ -11,7 +11,7 @@ class Elf :
 	public Player
 {
 	int lives;
-	vector<vector<Point>> hitbox;
+	//vector<vector<Point>> hitbox;
 	float y;
 	Texture* texture;
 	Sprite* elf_sprite;

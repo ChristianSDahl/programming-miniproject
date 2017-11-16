@@ -39,10 +39,6 @@ void Santa::createDrop(float x) {
 void Santa::action() {
 	this->props = new Props(this->get_x());
 	drop_list->push_back(props);
-	for (int i = 0; i < drop_list->size(); i++) {
-		cout << "list" << endl;
-		cout << drop_list->operator[](i)->get_x() << endl;
-	}
 }
 
 float Santa::get_y() {

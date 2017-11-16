@@ -1,7 +1,6 @@
-#include <iostream>
 #include "stdafx.h"
+#include <iostream>
 #include "string"
-#include <opencv2/opencv.hpp>
 #include <SFML/Graphics.hpp>
 #include <SFML/Network.hpp>
 #include <SFML/Network/Export.hpp>
@@ -63,7 +62,7 @@ public:
 		socket.send(text.c_str(), text.length() + 1);
 
 		socket.receive(buffer, sizeof(buffer), recieved); // the socket saves in the variable buffer the size and the content of the message that we want to send
-	std:cout << buffer << std::endl;
+		cout << buffer << std::endl;
 		std::getline(cin, text);// gets the typed text into a string 
 
 

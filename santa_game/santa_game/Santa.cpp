@@ -59,3 +59,8 @@ Sprite* Santa::get_img() {
 vector<Props*>* Santa::get_drop_list() {
 	return drop_list;
 }
+
+void Santa::set_drop_list(vector<Props*>* droplist)
+{
+	this->drop_list = droplist;
+}

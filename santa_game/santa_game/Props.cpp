@@ -17,26 +17,7 @@ Props::Props(float x)
 
 	//If statement that chooses which item shall be dropped. Coal or gift.
 	set_type(rand() % 3);
-	if (type == 0) {
-		this->texture = new Texture();
-		if (texture->loadFromFile("coal_sprite.png") != true) {
-			cout << "can't load file 'coal_sprite.png'" << endl;
-		}
-		this->prop_sprite = new Sprite();
-
-		this->prop_sprite->setTexture(*texture);
-	}
-	else {
-		this->texture = new Texture();
-		if (texture->loadFromFile("present_sprite.png") != true) {
-			cout << "can't load file 'present_sprite.png'" << endl;
-		}
-		this->prop_sprite = new Sprite();
-
-		this->prop_sprite->setTexture(*texture);
-		
-	}
-
+	set_image();
 	//The setup for the position of X(The picture)
 	set_x(x);
 
@@ -86,4 +67,25 @@ int Props::get_type() {
 }
 void Props::set_type(int type) {
 	this->type = type;
+}
+void Props::set_image()
+{
+	if (this->type == 0) {
+		this->texture = new Texture();
+		if (texture->loadFromFile("coal_sprite.png") != true) {
+			cout << "can't load file 'coal_sprite.png'" << endl;
+		}
+		this->prop_sprite = new Sprite();
+
+		this->prop_sprite->setTexture(*texture);
+	}
+	else {
+		this->texture = new Texture();
+		if (texture->loadFromFile("present_sprite.png") != true) {
+			cout << "can't load file 'present_sprite.png'" << endl;
+		}
+		this->prop_sprite = new Sprite();
+
+		this->prop_sprite->setTexture(*texture);
+	}
 }

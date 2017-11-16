@@ -30,6 +30,6 @@ public:
 	Sprite* get_image();
 	int get_type();
 	void set_type(int type);
-
+	void set_image();
 };
 

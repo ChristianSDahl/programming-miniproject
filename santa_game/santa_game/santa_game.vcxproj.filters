@@ -30,9 +30,6 @@
     <ClInclude Include="Santa.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Field.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Elf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -53,13 +50,7 @@
     <ClCompile Include="Santa.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Field.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Elf.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ServerG.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

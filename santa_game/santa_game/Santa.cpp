@@ -17,30 +17,32 @@ Santa::Santa(float x)
 	//Sets x-value for the santa object
 	set_x(x);
 
-	this->drop_list = new vector<Props*>();
-	this->texture = new Texture();
-	if (texture->loadFromFile("santa_sprite.png") != true) {
-		cout << "can't load file 'santa_sprite.png'" << endl;
+	this->drop_list = new vector<Props*>(); // creating an random prop class object
+	this->texture = new Texture(); // giving it a texture
+	if (texture->loadFromFile("santa_sprite.png") != true) { // if the file can be loaded display this image
+		cout << "can't load file 'santa_sprite.png'" << endl; // if it cant it shows the message " cant load file"
 	}
-	cout << texture << endl;
-	this->santa_sprite = new Sprite();
+	cout << texture << endl; 
+	this->santa_sprite = new Sprite(); 
 
-	this->santa_sprite->setTexture(*texture);
+	this->santa_sprite->setTexture(*texture); 
 }
 
 Santa::~Santa()
 {
 }
-
+// actions 
 void Santa::createDrop(float x) {
 
 }
 
 void Santa::action() {
-	this->props = new Props(this->get_x());
+	this->props = new Props(this->get_x()); // creating an random prop class object with x position
 	drop_list->push_back(props);
 }
 
+
+//// Get's and setters
 float Santa::get_y() {
 	return y;
 }

@@ -16,11 +16,11 @@ Elf::Elf(float x)
 	set_x(x);
 
 	this->texture = new Texture();
-	if (texture->loadFromFile("elf_sprite.png") != true) {
-		cout << "can't load file 'santa_sprite.png'" << endl;
+	if (texture->loadFromFile("elf_sprite.png") != true) { // if the file can be loaded display this image
+		cout << "can't load file 'santa_sprite.png'" << endl; // if it cant it shows the message " cant load file"
 	}
 	this->elf_sprite = new Sprite();
-	this->elf_sprite->setTexture(*texture);
+	this->elf_sprite->setTexture(*texture); // creating an elf class object
 }
 
 
@@ -36,15 +36,15 @@ void Elf::action(Santa* santa) {
 			(santa->get_drop_list()->operator[](i)->get_image()->getPosition().y + santa->get_drop_list()->operator[](i)->get_image()->getGlobalBounds().height) >= (this->get_img()->getPosition().y) &&
 			(santa->get_drop_list()->operator[](i)->get_image()->getPosition().y) <= (this->get_img()->getPosition().y + (this->get_img()->getGlobalBounds().height))) {
 			catch_prop = true;
-			cout << "CATCH!" << endl;
+			cout << "CATCH!" << endl; // is statement checking if the elf caught the prop based on the player and prop position, if yes it displays text "catch!"
 		}
 		else {
 			catch_prop = false;
-			cout << "CATCH FAILED" << endl;
+			cout << "CATCH FAILED" << endl; // it the player failed to catch the prop, it displays text "catch failed"
 		}
 	}
 }
-
+// Get's and setters
 float Elf::get_y() {
 	return y;
 }

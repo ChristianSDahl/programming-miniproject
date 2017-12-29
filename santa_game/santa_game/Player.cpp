@@ -3,7 +3,7 @@
 
 Player::Player(float middle)
 {
-
+	// variables
 	set_x(middle);
 	set_score(0);
 	set_speed(5);
@@ -13,7 +13,7 @@ Player::Player(float middle)
 Player::~Player()
 {
 }
-
+// player movement
 void Player::move() {
 	set_x(get_x()+get_speed());
 }
